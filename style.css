@@ -154,6 +154,7 @@ body {
         border: solid 1px var(--eight);
         width: 95%;
         margin: auto;
+        margin-top: 2px;
     }
     .card-abtme-ctnt {
         display: flex;
@@ -176,10 +177,29 @@ body {
     }
 
     .card-intrsts {
-        border: 1px solid white;
         display: inline-block;
         width: 48%;
-        height: 120px;
+        height: 115px;
+        margin-top: 5px;
+    
+    }
+    .card-intrsts h4 {
+        display: inline;
+        text-decoration: underline;
+        margin-left: 15px;
+    }
+    .card-intrsts p {
+        display: inline;
+    }
+    .card-intrsts-hdr {
+        display: inline-block;
+        color: var(--four);
+    }
+    .card-intrsts-list {
+        color: var(--seven);
+        width: 85%;
+        display: inline-block;
+        margin-left: 10px;
     }
 
     .card-stampmarquee {
