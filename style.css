@@ -1,0 +1,151 @@
+:root {
+    --one: rgb(21, 5, 48);
+    --two: rgb(68, 4, 87);
+    --three: rgb(107, 10, 75);
+    --four: rgb(167, 10, 62);
+    --five: rgb(255, 82, 14);
+    --six: #ff8f0f;
+    --seven: rgb(255, 210, 86);
+    --eight: rgb(255, 26, 133);
+}
+
+.aldrich-regular {
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+    width: 130px;
+    height: 30px;
+    background-image: linear-gradient(138deg, var(--eight), var(--five), var(--seven));
+    color: var(--three);
+    font-weight: 600;
+    font-style: "Aldrich", sans-serif;
+    border-radius: 7px;
+    border: 1px solid var(--one);
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 5px 5px var(--one);
+    
+}
+button::hover {
+        background-image: linear-gradient(138deg, var(--five), var(--six), var(--seven));
+}
+button:active {
+    background-image: none;
+    background-color: var(--seven);
+    box-shadow: none;
+}
+
+a {
+    color: #ff8f0f;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-family: "Aldrich", sans-serif
+}
+
+/*MOBILE FIRST*/
+@media screen and (max-width: 1024px) {
+
+    .base {
+        margin-top: 60px;
+        padding: 0px;
+        
+    }
+    .card {
+        margin: auto;
+        background-image: linear-gradient(rgb(21, 5, 48), rgb(68, 4, 87), rgb(107, 10, 75));
+        width: 95%;
+        height: 350px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px orange;
+        
+    }
+
+    .card-top {
+        height: 20%;
+    }
+
+    .card-center {
+        height: 55%;
+        border: 1px solid white;
+    }
+
+    .card-bot {
+        height: 24%;
+        border: 1px solid white;
+    }
+
+    .card-hdr {
+        background-image: linear-gradient(90deg, rgb(167, 10, 62), transparent);
+        width: 67%;
+        display: inline-block;
+        align-items: center;
+        overflow: hidden;
+        height: 30px;
+        margin-bottom: 15px;
+        margin-left: -5px;
+
+    }
+
+    .card-hdr-list {
+        display: flex;
+        flex-direction: column;
+        animation: scrollLeftToRight 5s linear infinite;
+    }
+
+    .card-hdr-item {
+        height: 30px;
+        white-space: nowrap;
+        margin-top: -18px;
+    }
+
+    @keyframes scrollLeftToRight {
+    0% {
+        transform: translateX(100%); /* Starts halfway tucked to the left */
+    }
+    100% {
+        transform: translateX(-110%); /* Moves smoothly to the right edge */
+    }
+    }
+
+    .card-pfp {
+        width: 25%;
+        margin: 7px 7px;
+        height: 85%;
+        display: inline-block;
+        overflow: hidden;
+        
+    }
+    .card-pfp img {
+        width: 110%;
+        margin: -15px -5px;
+    }
+
+    .button-links {
+        margin: auto;
+        width: 95%;
+        height: 30px;
+        
+    }
+    .button-links button {
+        margin-left: 4px;
+    }
+
+    .card-slinks {
+    }
+
+    .card-slinks-item {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-left: 27px;
+        margin-top: 10px;
+    }
+    .card-slinks-item img {
+        width: 100%;
+    }
+}
