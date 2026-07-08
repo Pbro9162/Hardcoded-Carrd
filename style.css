@@ -83,12 +83,12 @@ body {
 
     .card-hdr {
         background-image: linear-gradient(90deg, rgb(167, 10, 62), transparent);
-        width: 67%;
+        width: 60%;
         display: inline-block;
         align-items: center;
         overflow: hidden;
-        height: 30px;
-        margin-bottom: 15px;
+        height: 35px;
+        margin-bottom: 35px;
         margin-left: -5px;
         color: var(--seven);
 
@@ -116,9 +116,9 @@ body {
     }
 
     .card-pfp {
-        width: 25%;
+        width: 32%;
         margin: 7px 7px;
-        height: 85%;
+        height: 88%;
         display: inline-block;
         overflow: hidden;
         
