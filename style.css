@@ -59,7 +59,7 @@ body {
     }
     button {
         width: 130px;
-        height: 30px;
+        height: 40px;
     }
 
     .base {
@@ -130,7 +130,7 @@ body {
 
     /*CARD CENTER*/
     .card-center {
-        height: 62%;
+        height: 60%;
         border: 1px solid white;
     }    
     .card-divider {
@@ -166,18 +166,18 @@ body {
 
     .card-stampmarquee {
         background-color: blue;
-        height: 50px;
+        height: 35px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
     /*CARD BOTTOM*/
     .card-bot {
-        height: 24%;
+        height: 18%;
     }
     .button-links {
         margin: auto;
         width: 95%;
-        height: 30px;
+        height: 42px;
         
     }
     .button-links button {
