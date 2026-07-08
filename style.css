@@ -63,7 +63,7 @@ body {
     }
 
     .base {
-        margin-top: 60px;
+        margin-top: 5px;
         padding: 0px;
         
     }
@@ -71,7 +71,7 @@ body {
         margin: auto;
         background-image: linear-gradient(rgb(21, 5, 48), rgb(68, 4, 87), rgb(107, 10, 75));
         width: 95%;
-        height: 350px;
+        height: 500px;
         border-radius: 10px;
         box-shadow: 0px 0px 10px orange;
         
@@ -130,10 +130,46 @@ body {
 
     /*CARD CENTER*/
     .card-center {
-        height: 55%;
+        height: 62%;
         border: 1px solid white;
     }    
+    .card-divider {
+        background-color: red;
+    }
 
+    .card-abtme-hdr {
+        background-color: #ff520e;
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        margin-top: 2px;
+        
+    }
+    .card-abtme-hdr h3 {
+        margin-top: 3px;
+        text-decoration: underline;
+    }
+
+    .card-abtme-ctnt {
+        background-color: #ff1a85;
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+    }
+
+    .card-intrsts {
+        border: 1px solid white;
+        display: inline-block;
+        width: 48%;
+        height: 125px;
+    }
+
+    .card-stampmarquee {
+        background-color: blue;
+        height: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
     /*CARD BOTTOM*/
     .card-bot {
         height: 24%;
