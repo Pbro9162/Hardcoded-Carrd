@@ -131,9 +131,14 @@ body {
     /*CARD CENTER*/
     .card-center {
         height: 60%;
-        border: 1px solid white;
     }    
     .card-divider {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .card-divider img {
+        width: 100%;
     }
 
     .card-abtme-hdr {
@@ -203,7 +208,7 @@ body {
     }
 
     .card-marquee {
-        height: 48px;
+        height: 35px;
         margin-top: 5px;
         margin-bottom: 5px;
         overflow-x: scroll;
@@ -212,11 +217,10 @@ body {
     .card-marquee-inner {
         background-color: #150530;
         height: 100%;
-        width: 985px;
-        
+        width: 900px;
     }
     .card-marquee-item {
-        width: 85px;
+        width: 70px;
         height: 100%;
         display: inline-block;
     }
